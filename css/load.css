@@ -1,0 +1,279 @@
+@-webkit-keyframes rotate {
+    0% {
+        -o-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0)
+    }
+    100% {
+        -o-transform: rotate(-360deg);
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        transform: rotate(-360deg)
+    }
+}
+
+@-webkit-keyframes rotate1 {
+    0% {
+        -o-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0)
+    }
+    100% {
+        -o-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+.load_wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 1024px;
+    height: 100%;
+    z-index: 999999;
+    background-color: black;
+}
+
+.progress_line.leftl {
+    left: 0;
+}
+
+.progress_line.rightl {
+    right: 24px;
+}
+
+i {
+    height: 1px;
+    display: block;
+    background: #0cf;
+}
+
+.progress_line em {
+    display: block;
+    width: 15px;
+    height: 14px;
+    background: url('../img/lightTip.png') no-repeat;
+    position: absolute;
+    left: 3%;
+    top: 50%;
+}
+
+em.leftEm {
+    margin: -9px 0 0 -16px;
+}
+
+em.rightEm {
+    margin: -8px 0 0 -23px;
+}
+
+.load {
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    margin-top: -7px;
+    width: 77px;
+    height: 13px;
+}
+
+.loader-section {
+    position: relative;
+    border: 1px solid white;
+    top: 0;
+    width: 100%;
+    min-width: 1024px;
+    height: 100%;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    background: black;
+    z-index: 1;
+}
+
+.percent {
+    position: absolute;
+    top: 50%;
+    right: 35%;
+    margin-top: -9px;
+}
+
+.load_wrap p {
+    color: #aba494;
+    font-size: 14px;
+}
+
+.progress_line {
+    height: 1px;
+    background: #3c3830;
+    position: absolute;
+    top: 50%;
+    width: 30rem;
+}
+
+.progress_line i {
+    width: 0;
+    height: 1px;
+    display: block;
+    background: #6b6454;
+    box-shadow: 0 0 20px white;
+}
+
+.progress_line.rightl i {
+    float: right;
+}
+
+.mfz {
+    width: 39%;
+    height: 390px;
+    position: absolute;
+    top: 30%;
+    left: 44%;
+    margin-left: -14%;
+    /* border: 1px solid white; */
+    z-index: 2;
+    background: url('../img/m4.png') center center no-repeat;
+}
+
+.mfz1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/m1.png') center center no-repeat;
+    -webkit-animation: rotate1 4s linear infinite 300ms 0 ease;
+    -moz-animation: rotate1 4s linear infinite 300ms 0 ease;
+    -ms-animation: rotate1 4s linear infinite 300ms 0 ease;
+    animation: rotate1 4s linear infinite 300ms 0 ease;
+    -o-animation: rotate1 4s linear infinite;
+    -webkit-animation: rotate1 4s linear infinite;
+    -moz-animation: rotate1 4s linear infinite;
+    -ms-animation: rotate1 4s linear infinite;
+    animation: rotate1 4s linear infinite;
+}
+
+.mfz2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/m2.png') center center no-repeat;
+    -webkit-animation: rotate 4s linear infinite 300ms 0 ease;
+    -moz-animation: rotate 4s linear infinite 300ms 0 ease;
+    -ms-animation: rotate 4s linear infinite 300ms 0 ease;
+    animation: rotate 4s linear infinite 300ms 0 ease;
+    -o-animation: rotate 4s linear infinite;
+    -webkit-animation: rotate 4s linear infinite;
+    -moz-animation: rotate 4s linear infinite;
+    -ms-animation: rotate 4s linear infinite;
+    animation: rotate 4s linear infinite;
+}
+
+.mfz3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/m3.png') center center no-repeat;
+    -webkit-animation: rotate1 8s linear infinite 300ms 0 ease;
+    -moz-animation: rotate1 8s linear infinite 300ms 0 ease;
+    -ms-animation: rotate1 8s linear infinite 300ms 0 ease;
+    animation: rotate1 8s linear infinite 300ms 0 ease;
+    -o-animation: rotate1 8s linear infinite;
+    -webkit-animation: rotate1 8s linear infinite;
+    -moz-animation: rotate1 8s linear infinite;
+    -ms-animation: rotate1 8s linear infinite;
+    animation: rotate1 8s linear infinite;
+}
+
+.mfz4 {
+    width: 102px;
+    height: 94px;
+    position: absolute;
+    top: 4%;
+    left: 3%;
+    background: url('../img/m4.png') center center no-repeat;
+    -o-animation: rotate1 4s linear infinite;
+    -webkit-animation: rotate1 4s linear infinite;
+    -moz-animation: rotate1 4s linear infinite;
+    -ms-animation: rotate1 4s linear infinite;
+    animation: rotate1 4s linear infinite;
+}
+
+.mfz2 {
+    width: 69px;
+    height: 76px;
+    position: absolute;
+    top: -14%;
+    left: -8%;
+    background: url('../img/kuang_2.png') center center no-repeat;
+    -o-animation: rotate 3s linear infinite;
+    -webkit-animation: rotate 3s linear infinite;
+    -moz-animation: rotate 3s linear infinite;
+    -ms-animation: rotate 3s linear infinite;
+    animation: rotate 3s linear infinite;
+}
+
+.playBtn {
+    width: 125px;
+    height: 134px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    background: url("../img/playBtn.png") no-repeat center;
+}
+
+.video-btn-box {
+    width: 9.85rem;
+    height: 6.2rem;
+    margin: 0 auto;
+    left: -8%;
+    position: relative;
+}
+
+@media screen and (max-width: 1921px) {
+    html, body {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    html, body {
+        font-size: 17px;
+    }
+
+    .progress_line {
+        width: 22rem;
+    }
+
+    .rightl {
+        right: 24px;
+        top: 54%;
+    }
+
+    .leftl {
+        right: 24px;
+        top: 54%;
+    }
+
+    .load {
+        top: 54%;
+        left: 29%;
+    }
+
+    .percent {
+        top: 54%;
+        right: 31%;
+    }
+}
